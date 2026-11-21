@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gaming Console Product Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="theme-button" id="themeToggle">
+        🌙 Dark Mode
+    </button>
+    <main class="product-card">
+
+       
+        <div class="product-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=800"
+                alt="Gaming Console">
+
+            <span class="popular">POPULAR</span>
+
+        </div>
+        <div class="product-details">
+            <div class="top-row">
+
+                <span class="category">Electronics</span>
+
+                <span class="rating">4.9 ★</span>
+
+            </div>
+            <div class="product-info">
+                <h2>NextGen Gaming Console</h2>
+                <p class="description">
+                    Experience next-level gaming with powerful
+                    performance, stunning graphics and smooth
+                    gameplay. Enjoy an immersive entertainment
+                    experience with advanced gaming technology.
+                </p>
+            </div>
+            <div class="features">
+
+                <span class="feature">4K Ultra HD Gaming</span>
+
+                <span class="feature">1TB SSD Storage</span>
+
+                <span class="feature">Wireless Controller</span>
+
+                <span class="feature">Ray Tracing Support</span>
+
+                <span class="feature">High-Speed Processor</span>
+
+                <span class="feature">Wi-Fi 6 Connectivity</span>
+
+            </div>
+            <div class="bottom-row">
+
+                <div class="price-section">
+
+                    <p class="price">₹29,999</p>
+
+                    <p class="tax">Tax included</p>
+
+                </div>
+                <div class="action-buttons">
+
+                    <button class="buy-button" id="addToBagBtn">
+                        Add to Bag
+                    </button>
+
+                    <button class="now-button" id="buyNowBtn">
+                        Buy Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+<!-- Shopping Bag Section -->
+<section class="shopping-bag" id="shoppingBag" hidden>
+
+    <h2> Your Shopping Bag</h2>
+
+    <div class="bag-item">
+        <h3>NextGen Gaming Console</h3>
+        <p>Price: ₹29,999</p>
+        <p>Quantity: <span id="quantity">0</span></p>
+    </div>
+
+    <h3>Total: ₹<span id="totalPrice">0</span></h3>
+
+</section>
+
+
+    <!-- Link JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
